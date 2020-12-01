@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style> 
+            *{
+                margin: 0;
+                padding: 0;
+                
+            }
+            body{
+                /* background-image: url("screen.png"); */
+                
+            }
+            .rec-1{
+                width: 100%;
+                height: 120px;
+                background-color: #a2bf39;
+                border: 1px solid #ffff;
+                text-align: center;
+                
+            }
+            .div-flex{
+                display: flex;
+                
+            }
+            .rec-2, .rec-3{
+                
+                width: 60px;
+                height: 100px;
+                background-color: #589ad1;
+                border: 1px solid #ffff;
+            }
+            .rec-3{
+                margin-left: 90px;
+            }
+            .rec-4{
+                width: 150px;
+                height: 95px;
+                background-color: #7abec2;
+                margin-top: 100px;
+                margin-left: 110px;
+                transform: rotate(45deg);
+            }
+            .rec-5, .rec-6, .rec-7, .rec-8, .rec-9, .rec-10{
+                position: absolute;
+            }
+            .rec-5, .rec-6{
+                width: 30px;
+                height: 35px;
+                background-color: #e77c52;
+                
+            }
+            .rec-5{
+                top:200px;
+                right: 80px
+            }
+            .rec-6{
+                top:200px;
+                left: 80px
+            }
+            
+            .rec-7, .rec-8, .rec-9, .rec-10{
+                /* display: inline-block; */
+                width: 20px;
+                height: 35px;
+                background-color: #61c3db;
+                
+            }
+            .rec-7{
+                top:300px;
+                left: 87px;
+                height: 20px;
+
+            }
+            .rec-8{
+                top:300px;
+                left: 110px;
+                background-color: rgb(228, 99, 99);
+            }
+            .img-1{
+                position: absolute;
+                top: 0;
+                z-index: -1;
+            }
+            .rec-9{
+                top:500px;
+                left: 110px;
+                background-color: rgb(92, 161, 92);
+            }
+            .rec-10{
+                top:500px;
+                right: 110px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="img-1">
+            <img src="screen.png" alt="">
+        </div>
+
+        <div>
+            <div class="rec-1"><h1 style="margin-top: 40px">HALL</h1></div>
+            <div class="div-flex">
+                <div class="rec-2">Shop#1</div>
+                <div class="rec-4">Cafe#1</div>
+                <div class="rec-3">Shop#4</div>            
+            </div>
+            <div class="div-flex">
+                <div class="rec-2" >Shop#2</div>
+                <div class="rec-4" style="background-color: rgb(165, 140, 248);">Cafe#2</div>
+                <div class="rec-3">Shop#5</div>            
+            </div>
+            <div class="div-flex">
+                <div class="rec-2">Shop#3</div>
+                <div class="rec-4" style="background-color: rgb(255, 204, 138);">Cafe#3</div>
+                <div class="rec-3">Shop#6</div>            
+            </div>
+            <div class="div-flex">
+                <div class="rec-2"> Shop#4</div>
+                <div class="rec-4" style="background-color: rgb(255, 204, 138);">Cafe#4</div>
+                <div class="rec-3">Shop#7</div>            
+            </div>
+            <div class="rec-5"></div>
+            <div class="rec-6"></div>
+            <div class="rec-7"></div>
+            <div class="rec-8"></div>
+            <div class="rec-9"></div>
+            <div class="rec-10"></div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
